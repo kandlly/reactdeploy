@@ -20,7 +20,7 @@ class App extends Component {
 export default App;
 */
 
-import React  from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,7 +32,7 @@ import {
 import Home from './pages/home/home.component'
 import Posts from './pages/posts/posts.component'
 import PostDetail from './pages/post-detail/post-detail.component'
-import SignInAndSignUpPage from './pages/sign-in-adn-sign-up/sign-in-adn-sign-up.component'
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-adn-sign-up.component'
 
 const isAuthenticated = true
 
